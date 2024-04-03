@@ -14,6 +14,7 @@
 		98A8CABC2BBD5F2B00259560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A8CABB2BBD5F2B00259560 /* Assets.xcassets */; };
 		98A8CABF2BBD5F2B00259560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A8CABD2BBD5F2B00259560 /* LaunchScreen.storyboard */; };
 		98A8CAC22BBD5F2B00259560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CAC12BBD5F2B00259560 /* main.m */; };
+		98A8CACD2BBD5FE800259560 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CACA2BBD5FE800259560 /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		98A8CABE2BBD5F2B00259560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98A8CAC02BBD5F2B00259560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98A8CAC12BBD5F2B00259560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98A8CACA2BBD5FE800259560 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		98A8CACB2BBD5FE800259560 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		98A8CAAE2BBD5F2500259560 /* zhiqi */ = {
 			isa = PBXGroup;
 			children = (
+				98A8CAC82BBD5FD800259560 /* 3rds */,
 				98A8CAAF2BBD5F2500259560 /* AppDelegate.h */,
 				98A8CAB02BBD5F2500259560 /* AppDelegate.m */,
 				98A8CAB22BBD5F2500259560 /* SceneDelegate.h */,
@@ -74,6 +78,23 @@
 				98A8CAC12BBD5F2B00259560 /* main.m */,
 			);
 			path = zhiqi;
+			sourceTree = "<group>";
+		};
+		98A8CAC82BBD5FD800259560 /* 3rds */ = {
+			isa = PBXGroup;
+			children = (
+				98A8CAC92BBD5FE800259560 /* iCarousel */,
+			);
+			path = 3rds;
+			sourceTree = "<group>";
+		};
+		98A8CAC92BBD5FE800259560 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				98A8CACA2BBD5FE800259560 /* iCarousel.m */,
+				98A8CACB2BBD5FE800259560 /* iCarousel.h */,
+			);
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98A8CAB72BBD5F2500259560 /* ViewController.m in Sources */,
+				98A8CACD2BBD5FE800259560 /* iCarousel.m in Sources */,
 				98A8CAB12BBD5F2500259560 /* AppDelegate.m in Sources */,
 				98A8CAC22BBD5F2B00259560 /* main.m in Sources */,
 				98A8CAB42BBD5F2500259560 /* SceneDelegate.m in Sources */,
