@@ -7,27 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98A8CA922BBD5DDE00259560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CA912BBD5DDE00259560 /* AppDelegate.m */; };
-		98A8CA952BBD5DDE00259560 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CA942BBD5DDE00259560 /* ViewController.m */; };
-		98A8CA972BBD5DEF00259560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A8CA962BBD5DEF00259560 /* Assets.xcassets */; };
-		98A8CA9A2BBD5DEF00259560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A8CA982BBD5DEF00259560 /* Main.storyboard */; };
-		98A8CA9C2BBD5DEF00259560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CA9B2BBD5DEF00259560 /* main.m */; };
+		98A8CAB12BBD5F2500259560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CAB02BBD5F2500259560 /* AppDelegate.m */; };
+		98A8CAB42BBD5F2500259560 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CAB32BBD5F2500259560 /* SceneDelegate.m */; };
+		98A8CAB72BBD5F2500259560 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CAB62BBD5F2500259560 /* ViewController.m */; };
+		98A8CABA2BBD5F2500259560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A8CAB82BBD5F2500259560 /* Main.storyboard */; };
+		98A8CABC2BBD5F2B00259560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A8CABB2BBD5F2B00259560 /* Assets.xcassets */; };
+		98A8CABF2BBD5F2B00259560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A8CABD2BBD5F2B00259560 /* LaunchScreen.storyboard */; };
+		98A8CAC22BBD5F2B00259560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8CAC12BBD5F2B00259560 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		98A8CA8D2BBD5DDE00259560 /* zhiqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhiqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		98A8CA902BBD5DDE00259560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		98A8CA912BBD5DDE00259560 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		98A8CA932BBD5DDE00259560 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98A8CA942BBD5DDE00259560 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		98A8CA962BBD5DEF00259560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		98A8CA992BBD5DEF00259560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		98A8CA9B2BBD5DEF00259560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		98A8CA9D2BBD5DEF00259560 /* zhiqi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zhiqi.entitlements; sourceTree = "<group>"; };
+		98A8CAAC2BBD5F2500259560 /* zhiqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhiqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A8CAAF2BBD5F2500259560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98A8CAB02BBD5F2500259560 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98A8CAB22BBD5F2500259560 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		98A8CAB32BBD5F2500259560 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		98A8CAB52BBD5F2500259560 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98A8CAB62BBD5F2500259560 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98A8CAB92BBD5F2500259560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98A8CABB2BBD5F2B00259560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98A8CABE2BBD5F2B00259560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98A8CAC02BBD5F2B00259560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A8CAC12BBD5F2B00259560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		98A8CA8A2BBD5DDE00259560 /* Frameworks */ = {
+		98A8CAA92BBD5F2400259560 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,33 +42,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		98A8CA842BBD5DDD00259560 = {
+		98A8CAA32BBD5F2400259560 = {
 			isa = PBXGroup;
 			children = (
-				98A8CA8F2BBD5DDE00259560 /* zhiqi */,
-				98A8CA8E2BBD5DDE00259560 /* Products */,
+				98A8CAAE2BBD5F2500259560 /* zhiqi */,
+				98A8CAAD2BBD5F2500259560 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		98A8CA8E2BBD5DDE00259560 /* Products */ = {
+		98A8CAAD2BBD5F2500259560 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98A8CA8D2BBD5DDE00259560 /* zhiqi.app */,
+				98A8CAAC2BBD5F2500259560 /* zhiqi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98A8CA8F2BBD5DDE00259560 /* zhiqi */ = {
+		98A8CAAE2BBD5F2500259560 /* zhiqi */ = {
 			isa = PBXGroup;
 			children = (
-				98A8CA902BBD5DDE00259560 /* AppDelegate.h */,
-				98A8CA912BBD5DDE00259560 /* AppDelegate.m */,
-				98A8CA932BBD5DDE00259560 /* ViewController.h */,
-				98A8CA942BBD5DDE00259560 /* ViewController.m */,
-				98A8CA962BBD5DEF00259560 /* Assets.xcassets */,
-				98A8CA982BBD5DEF00259560 /* Main.storyboard */,
-				98A8CA9B2BBD5DEF00259560 /* main.m */,
-				98A8CA9D2BBD5DEF00259560 /* zhiqi.entitlements */,
+				98A8CAAF2BBD5F2500259560 /* AppDelegate.h */,
+				98A8CAB02BBD5F2500259560 /* AppDelegate.m */,
+				98A8CAB22BBD5F2500259560 /* SceneDelegate.h */,
+				98A8CAB32BBD5F2500259560 /* SceneDelegate.m */,
+				98A8CAB52BBD5F2500259560 /* ViewController.h */,
+				98A8CAB62BBD5F2500259560 /* ViewController.m */,
+				98A8CAB82BBD5F2500259560 /* Main.storyboard */,
+				98A8CABB2BBD5F2B00259560 /* Assets.xcassets */,
+				98A8CABD2BBD5F2B00259560 /* LaunchScreen.storyboard */,
+				98A8CAC02BBD5F2B00259560 /* Info.plist */,
+				98A8CAC12BBD5F2B00259560 /* main.m */,
 			);
 			path = zhiqi;
 			sourceTree = "<group>";
@@ -71,13 +79,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		98A8CA8C2BBD5DDE00259560 /* zhiqi */ = {
+		98A8CAAB2BBD5F2400259560 /* zhiqi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98A8CAA02BBD5DEF00259560 /* Build configuration list for PBXNativeTarget "zhiqi" */;
+			buildConfigurationList = 98A8CAC52BBD5F2B00259560 /* Build configuration list for PBXNativeTarget "zhiqi" */;
 			buildPhases = (
-				98A8CA892BBD5DDE00259560 /* Sources */,
-				98A8CA8A2BBD5DDE00259560 /* Frameworks */,
-				98A8CA8B2BBD5DDE00259560 /* Resources */,
+				98A8CAA82BBD5F2400259560 /* Sources */,
+				98A8CAA92BBD5F2400259560 /* Frameworks */,
+				98A8CAAA2BBD5F2400259560 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -85,24 +93,24 @@
 			);
 			name = zhiqi;
 			productName = zhiqi;
-			productReference = 98A8CA8D2BBD5DDE00259560 /* zhiqi.app */;
+			productReference = 98A8CAAC2BBD5F2500259560 /* zhiqi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		98A8CA852BBD5DDD00259560 /* Project object */ = {
+		98A8CAA42BBD5F2400259560 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					98A8CA8C2BBD5DDE00259560 = {
+					98A8CAAB2BBD5F2400259560 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 98A8CA882BBD5DDD00259560 /* Build configuration list for PBXProject "zhiqi" */;
+			buildConfigurationList = 98A8CAA72BBD5F2400259560 /* Build configuration list for PBXProject "zhiqi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,54 +118,64 @@
 				en,
 				Base,
 			);
-			mainGroup = 98A8CA842BBD5DDD00259560;
-			productRefGroup = 98A8CA8E2BBD5DDE00259560 /* Products */;
+			mainGroup = 98A8CAA32BBD5F2400259560;
+			productRefGroup = 98A8CAAD2BBD5F2500259560 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98A8CA8C2BBD5DDE00259560 /* zhiqi */,
+				98A8CAAB2BBD5F2400259560 /* zhiqi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		98A8CA8B2BBD5DDE00259560 /* Resources */ = {
+		98A8CAAA2BBD5F2400259560 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A8CA972BBD5DEF00259560 /* Assets.xcassets in Resources */,
-				98A8CA9A2BBD5DEF00259560 /* Main.storyboard in Resources */,
+				98A8CABF2BBD5F2B00259560 /* LaunchScreen.storyboard in Resources */,
+				98A8CABC2BBD5F2B00259560 /* Assets.xcassets in Resources */,
+				98A8CABA2BBD5F2500259560 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		98A8CA892BBD5DDE00259560 /* Sources */ = {
+		98A8CAA82BBD5F2400259560 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A8CA952BBD5DDE00259560 /* ViewController.m in Sources */,
-				98A8CA9C2BBD5DEF00259560 /* main.m in Sources */,
-				98A8CA922BBD5DDE00259560 /* AppDelegate.m in Sources */,
+				98A8CAB72BBD5F2500259560 /* ViewController.m in Sources */,
+				98A8CAB12BBD5F2500259560 /* AppDelegate.m in Sources */,
+				98A8CAC22BBD5F2B00259560 /* main.m in Sources */,
+				98A8CAB42BBD5F2500259560 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		98A8CA982BBD5DEF00259560 /* Main.storyboard */ = {
+		98A8CAB82BBD5F2500259560 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98A8CA992BBD5DEF00259560 /* Base */,
+				98A8CAB92BBD5F2500259560 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98A8CABD2BBD5F2B00259560 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A8CABE2BBD5F2B00259560 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		98A8CA9E2BBD5DEF00259560 /* Debug */ = {
+		98A8CAC32BBD5F2B00259560 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,16 +227,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		98A8CA9F2BBD5DEF00259560 /* Release */ = {
+		98A8CAC42BBD5F2B00259560 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,88 +282,91 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		98A8CAA12BBD5DEF00259560 /* Debug */ = {
+		98A8CAC62BBD5F2B00259560 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = zhiqi/zhiqi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MQ4RPYJK2A;
-				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = zhiqi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.songmin.zhiqi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		98A8CAA22BBD5DEF00259560 /* Release */ = {
+		98A8CAC72BBD5F2B00259560 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = zhiqi/zhiqi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MQ4RPYJK2A;
-				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = zhiqi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.songmin.zhiqi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98A8CA882BBD5DDD00259560 /* Build configuration list for PBXProject "zhiqi" */ = {
+		98A8CAA72BBD5F2400259560 /* Build configuration list for PBXProject "zhiqi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98A8CA9E2BBD5DEF00259560 /* Debug */,
-				98A8CA9F2BBD5DEF00259560 /* Release */,
+				98A8CAC32BBD5F2B00259560 /* Debug */,
+				98A8CAC42BBD5F2B00259560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98A8CAA02BBD5DEF00259560 /* Build configuration list for PBXNativeTarget "zhiqi" */ = {
+		98A8CAC52BBD5F2B00259560 /* Build configuration list for PBXNativeTarget "zhiqi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98A8CAA12BBD5DEF00259560 /* Debug */,
-				98A8CAA22BBD5DEF00259560 /* Release */,
+				98A8CAC62BBD5F2B00259560 /* Debug */,
+				98A8CAC72BBD5F2B00259560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 98A8CA852BBD5DDD00259560 /* Project object */;
+	rootObject = 98A8CAA42BBD5F2400259560 /* Project object */;
 }

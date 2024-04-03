@@ -5,9 +5,9 @@
 //  Created by zm on 2024/4/3.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 
 @end
